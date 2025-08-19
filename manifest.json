@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "InboxIQ",
+  "version": "1.0",
+  "description": "Smart inbox scanner for Gmail",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "options_page": "settings.html",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
