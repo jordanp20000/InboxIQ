@@ -1,2 +1,2 @@
 # InboxIQ
-trail and error
+inbox helped app, apis needed
