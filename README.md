@@ -1,2 +1,2 @@
 # InboxIQ
-inbox helped app, apis needed
+Inbox sorter and reader. WIP
